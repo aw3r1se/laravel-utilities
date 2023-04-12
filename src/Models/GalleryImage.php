@@ -1,6 +1,6 @@
 <?php
 
-namespace Awe3r1se\UtilityTraits\Models;
+namespace Aw3r1se\UtilityTraits\Models;
 
 class GalleryImage extends Image
 {

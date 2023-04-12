@@ -2,8 +2,8 @@
 
 namespace Aw3r1se\UtilityTraits\DTO;
 
-use Awe3r1se\UtilityTraits\Models\GalleryImage;
-use Awe3r1se\UtilityTraits\Models\Image;
+use Aw3r1se\UtilityTraits\Models\GalleryImage;
+use Aw3r1se\UtilityTraits\Models\Image;
 use Aw3r1se\UtilityTraits\Services\ImageService;
 
 class ImageDTO

@@ -1,10 +1,10 @@
 <?php
 
-namespace Awe3r1se\UtilityTraits\Traits;
+namespace Aw3r1se\UtilityTraits\Traits;
 
 use Aw3r1se\UtilityTraits\DTO\ImageDTO;
-use Awe3r1se\UtilityTraits\Models\GalleryImage;
-use Awe3r1se\UtilityTraits\Models\Image;
+use Aw3r1se\UtilityTraits\Models\GalleryImage;
+use Aw3r1se\UtilityTraits\Models\Image;
 use Aw3r1se\UtilityTraits\Services\ImageService;
 use Aw3r1se\UtilityTraits\Services\MediaService;
 use Illuminate\Database\Eloquent\Casts\Attribute;

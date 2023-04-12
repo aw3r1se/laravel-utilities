@@ -1,9 +1,9 @@
 <?php
 
-namespace Awe3r1se\UtilityTraits\Traits;
+namespace Aw3r1se\UtilityTraits\Traits;
 
 use Aw3r1se\UtilityTraits\DTO\DocumentDTO;
-use Awe3r1se\UtilityTraits\Models\Document;
+use Aw3r1se\UtilityTraits\Models\Document;
 use Aw3r1se\UtilityTraits\Services\DocumentService;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;

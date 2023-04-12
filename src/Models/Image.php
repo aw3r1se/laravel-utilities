@@ -1,6 +1,6 @@
 <?php
 
-namespace Awe3r1se\UtilityTraits\Models;
+namespace Aw3r1se\UtilityTraits\Models;
 
 use Aw3r1se\UtilityTraits\Services\MediaService;
 use Illuminate\Database\Eloquent\Casts\Attribute;

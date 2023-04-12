@@ -1,6 +1,6 @@
 <?php
 
-namespace Awe3r1se\UtilityTraits\Traits;
+namespace Aw3r1se\UtilityTraits\Traits;
 
 use Exception;
 use Illuminate\Database\Eloquent\Builder;
