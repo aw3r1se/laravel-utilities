@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aw3r1se\\UtilityTraits\\Providers\\UtilityTraitsServiceProvieder"
+                "Aw3r1se\\UtilityTraits\\Providers\\UtilityTraitsServiceProvider"
             ]
         }
     },
