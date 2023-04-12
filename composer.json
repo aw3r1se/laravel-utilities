@@ -1,0 +1,30 @@
+{
+    "name": "aw3r1se/utility-traits",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aw3r1se\\UtilityTraits\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bogdan"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "laravel/framework": "^10",
+        "intervention/image": "^2.7"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aw3r1se\\UtilityTraits\\Providers\\UtilityTraitsServiceProvieder"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
