@@ -1,8 +1,8 @@
 <?php
 
-namespace Aw3r1se\UtilityTraits\Services;
+namespace Aw3r1se\LaravelUtilities\Services;
 
-use Aw3r1se\UtilityTraits\DTO\DocumentDTO;
+use Aw3r1se\LaravelUtilities\DTO\DocumentDTO;
 use Illuminate\Support\Facades\File;
 
 class DocumentService extends MediaService

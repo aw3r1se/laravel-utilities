@@ -1,6 +1,6 @@
 <?php
 
-namespace Aw3r1se\UtilityTraits\Traits;
+namespace Aw3r1se\LaravelUtilities\Traits;
 
 trait MediaTrait
 {

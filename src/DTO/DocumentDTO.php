@@ -1,6 +1,6 @@
 <?php
 
-namespace Aw3r1se\UtilityTraits\DTO;
+namespace Aw3r1se\LaravelUtilities\DTO;
 
 class DocumentDTO
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Aw3r1se\UtilityTraits\DTO;
+namespace Aw3r1se\LaravelUtilities\DTO;
 
-use Aw3r1se\UtilityTraits\Models\GalleryImage;
-use Aw3r1se\UtilityTraits\Models\Image;
-use Aw3r1se\UtilityTraits\Services\ImageService;
+use Aw3r1se\LaravelUtilities\Models\GalleryImage;
+use Aw3r1se\LaravelUtilities\Models\Image;
+use Aw3r1se\LaravelUtilities\Services\ImageService;
 
 class ImageDTO
 {

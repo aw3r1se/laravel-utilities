@@ -1,10 +1,10 @@
 <?php
 
-namespace Aw3r1se\UtilityTraits\Providers;
+namespace Aw3r1se\LaravelUtilities\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class UtilityTraitsServiceProvider extends ServiceProvider
+class LaravelUtilitiesServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {

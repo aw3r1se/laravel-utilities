@@ -1,8 +1,8 @@
 <?php
 
-namespace Aw3r1se\UtilityTraits\Services;
+namespace Aw3r1se\LaravelUtilities\Services;
 
-use Aw3r1se\UtilityTraits\DTO\ImageDTO;
+use Aw3r1se\LaravelUtilities\DTO\ImageDTO;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\UploadedFile;

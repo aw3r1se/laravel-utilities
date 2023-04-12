@@ -1,10 +1,10 @@
 {
-    "name": "aw3r1se/utility-traits",
+    "name": "aw3r1se/laravel-utilities",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Aw3r1se\\UtilityTraits\\": "src/"
+            "Aw3r1se\\LaravelUtilities\\": "src/"
         }
     },
     "authors": [
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aw3r1se\\UtilityTraits\\Providers\\UtilityTraitsServiceProvider"
+                "Aw3r1se\\LaravelUtilities\\Providers\\LaravelUtilitiesServiceProvider"
             ]
         }
     },

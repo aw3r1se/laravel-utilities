@@ -1,10 +1,10 @@
 <?php
 
-namespace Aw3r1se\UtilityTraits\Traits;
+namespace Aw3r1se\LaravelUtilities\Traits;
 
-use Aw3r1se\UtilityTraits\DTO\DocumentDTO;
-use Aw3r1se\UtilityTraits\Models\Document;
-use Aw3r1se\UtilityTraits\Services\DocumentService;
+use Aw3r1se\LaravelUtilities\DTO\DocumentDTO;
+use Aw3r1se\LaravelUtilities\Models\Document;
+use Aw3r1se\LaravelUtilities\Services\DocumentService;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Facades\Storage;

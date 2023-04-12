@@ -1,12 +1,12 @@
 <?php
 
-namespace Aw3r1se\UtilityTraits\Traits;
+namespace Aw3r1se\LaravelUtilities\Traits;
 
-use Aw3r1se\UtilityTraits\DTO\ImageDTO;
-use Aw3r1se\UtilityTraits\Models\GalleryImage;
-use Aw3r1se\UtilityTraits\Models\Image;
-use Aw3r1se\UtilityTraits\Services\ImageService;
-use Aw3r1se\UtilityTraits\Services\MediaService;
+use Aw3r1se\LaravelUtilities\DTO\ImageDTO;
+use Aw3r1se\LaravelUtilities\Models\GalleryImage;
+use Aw3r1se\LaravelUtilities\Models\Image;
+use Aw3r1se\LaravelUtilities\Services\ImageService;
+use Aw3r1se\LaravelUtilities\Services\MediaService;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphOne;

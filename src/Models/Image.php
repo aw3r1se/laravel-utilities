@@ -1,8 +1,8 @@
 <?php
 
-namespace Aw3r1se\UtilityTraits\Models;
+namespace Aw3r1se\LaravelUtilities\Models;
 
-use Aw3r1se\UtilityTraits\Services\MediaService;
+use Aw3r1se\LaravelUtilities\Services\MediaService;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
