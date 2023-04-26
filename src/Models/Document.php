@@ -38,8 +38,11 @@ class Document extends Model
     protected function url(): Attribute
     {
         return Attribute::make(
-            get: fn () => Storage::disk('public')
-                ->url($this->folder . $this->file_name),
+            get: function (?string $url) {
+                return $url
+                    ? $url
+                    : Storage::disk('public')->url($this->folder . $this->file_name);
+            }
         )->shouldCache();
     }
 
