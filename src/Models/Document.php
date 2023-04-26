@@ -12,8 +12,6 @@ class Document extends Model
 {
     use HasFactory;
 
-    public $timestamps = false;
-
     protected $fillable = [
         'folder',
         'file_name',
