@@ -12,8 +12,8 @@ return new class () extends Migration {
             Schema::create('documents', function (Blueprint $table) {
                 $table->id();
                 $table->morphs('model');
-                $table->string('folder');
-                $table->string('file_name');
+                $table->string('folder')->nullable();
+                $table->string('file_name')->nullable();
                 $table->string('user_name')->default('');
                 $table->integer('sort')->index()->default(0);
                 
