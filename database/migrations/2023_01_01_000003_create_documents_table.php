@@ -16,6 +16,11 @@ return new class () extends Migration {
                 $table->string('file_name');
                 $table->string('user_name')->default('');
                 $table->integer('sort')->index()->default(0);
+                
+                /** Для документов не хранящихся локально */
+                $table->string('url')->nullable();
+
+                $table->timestamps();
             });
         }
     }
