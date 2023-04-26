@@ -17,6 +17,7 @@ class Document extends Model
         'file_name',
         'user_name',
         'sort',
+        'url',
     ];
 
     protected $appends = ['url'];
